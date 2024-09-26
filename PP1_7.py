@@ -6,27 +6,29 @@ def q1():
 
 def q2():
   #Write code here
-  num = int(input("Input an interger: "))
-  num = num > 5
-  print(num)
+  num = input("Input an integer: ")
+  bool = float(num) > 5
+  print(bool)
+  
 
 def q3():
   #Write code here
-  letter = ("Input the letter a: ")
-  letter = "a" == letter
-  print(letter)
+  letter = input("Input the letter a: ")
+  boolOne = "a" == letter
+  print(boolOne)
 
 def q4():
   #Write code here
   word = input("Input a word earlier in the dictionary than google: ")
-  word = word > "google"
-  print(word)
+  boolTwo = word < "google"
+  print(boolTwo)
 
 def q5():
   #Write code here
-  num1 = int(input("Input an interger: "))
-  num2 = int(input("Input another interger: "))
-  print(bool(num1*num2 > 40))
+  num1 = input("Input an integer: ")
+  num2 = input("Input another integer: ")
+  boolThree = int(num1)*int(num2) > 40
+  print(f"Your numbers multiplied together are greater than 40: {boolThree}")
 
 
 
